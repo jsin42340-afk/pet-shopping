@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="강아지와 고양이 사료, 간식, 영양제, 급여용품과 생활용품을 비교하는 반려동물 쇼핑 정보 플랫폼">
+<title>펫초이스 | 반려동물 쇼핑 가이드</title>
+<style>
+:root{--ink:#202a27;--muted:#6c7772;--green:#28745a;--dark:#163d31;--lime:#d9eddf;--bg:#f7f8f5;--line:#e4e9e4;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;line-height:1.6}
+a{color:inherit}header{background:var(--dark);color:white}nav{max-width:1180px;margin:auto;padding:17px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.logo{font-size:22px;font-weight:900;letter-spacing:-1px}.logo span{color:#aee0bd}.nav{display:flex;gap:18px;flex-wrap:wrap}.nav a{color:#e2eee7;text-decoration:none;font-size:14px}
+.hero{max-width:1180px;margin:auto;padding:64px 22px 75px}.eyebrow{font-size:12px;letter-spacing:2px;color:#aee0bd;font-weight:800}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.15;letter-spacing:-1.7px;margin:12px 0}.hero p{max-width:650px;color:#dce9e1;font-size:16px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;border-radius:10px;padding:11px 16px;text-decoration:none;font-weight:800;font-size:14px;background:#c5e7d0;color:#163d31}.btn.ghost{border:1px solid #779889;background:transparent;color:white}
+.wrap{max-width:1180px;margin:auto;padding:40px 22px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:20px}.kicker{font-size:11px;letter-spacing:1.5px;color:var(--green);font-weight:850}.section-head h2{font-size:27px;margin:2px 0 0;letter-spacing:-.7px}.muted{color:var(--muted);font-size:13px}
+.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.category{border:1px solid var(--line);border-radius:16px;background:white;padding:19px;text-decoration:none;transition:.15s}.category:hover{transform:translateY(-2px);border-color:#9bc9ad}.category .ico{font-size:30px}.category b{display:block;margin-top:8px}.category small{color:var(--muted)}
+.filters{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 12px}.filters input,.filters select{font:inherit;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:white;color:var(--ink)}.filters input{flex:1;min-width:220px}
+.tabs{display:flex;gap:7px;flex-wrap:wrap}.tab{border:1px solid var(--line);background:white;border-radius:99px;padding:8px 14px;font-weight:750;cursor:pointer;color:var(--ink)}.tab.active{background:var(--green);color:white;border-color:var(--green)}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px;margin-top:17px}.product{background:white;border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;min-height:230px}.product .top{display:flex;justify-content:space-between;align-items:center}.emoji{font-size:28px}.tag{font-size:11px;font-weight:850;color:var(--green);background:#edf6ef;padding:4px 9px;border-radius:99px}.product h3{font-size:17px;margin:10px 0 4px}.product p{font-size:13px;color:var(--muted);margin:0 0 12px}.facts{font-size:12px;color:#53625b;border-top:1px solid var(--line);padding-top:10px;margin-top:auto}.facts b{color:var(--ink)}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.brand{background:white;border:1px solid var(--line);border-radius:13px;padding:15px}.brand b{display:block}.brand small{color:var(--muted)}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px}.info{background:#edf5ef;border-radius:14px;padding:18px}.info h3{margin:0 0 6px;font-size:16px}.info p{margin:0;color:#56675e;font-size:13px}
+.notice{background:#fff8e9;border:1px solid #f0dfbd;color:#66512d;padding:15px;border-radius:12px;font-size:13px}
+footer{background:var(--dark);color:#dcebe3;text-align:center;padding:27px 18px;font-size:12px}.hide{display:none}
+@media(max-width:800px){.category-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.wrap{padding:30px 16px}.hero{padding:45px 18px 55px}.nav{gap:10px}.category-grid{gap:9px}.category{padding:14px}}
+</style></head>
+<body>
+<header><nav><div class="logo">🐾 펫<span>초이스</span></div><div class="nav"><a href="#categories">카테고리</a><a href="#products">상품 찾기</a><a href="#brands">브랜드</a><a href="#guide">구매 가이드</a></div></nav>
+<section class="hero"><div class="eyebrow">PET CHOICE · SHOPPING GUIDE</div><h1>반려생활의 모든 선택,<br>한곳에서 똑똑하게.</h1><p>강아지와 고양이를 위한 사료, 간식, 영양제, 급여용품과 생활용품을 찾아보고 비교하는 쇼핑 정보 플랫폼입니다.</p><div class="hero-actions"><a class="btn" href="#products">상품 카테고리 보기</a><a class="btn ghost" href="#guide">구매 가이드</a></div></section></header>
+<main>
+<section class="wrap" id="categories"><div class="section-head"><div><div class="kicker">EXPLORE</div><h2>무엇을 찾으세요?</h2></div><div class="muted">강아지와 고양이 통합 카테고리</div></div>
+<div class="category-grid">
+<a class="category" href="#products" data-jump="food"><div class="ico">🥣</div><b>사료</b><small>건식 · 습식 · 기능성</small></a>
+<a class="category" href="#products" data-jump="treat"><div class="ico">🍖</div><b>간식</b><small>육포 · 츄르 · 덴탈껌</small></a>
+<a class="category" href="#products" data-jump="supplement"><div class="ico">🧴</div><b>영양제</b><small>유산균 · 오메가3 · 관절</small></a>
+<a class="category" href="#products" data-jump="feeding"><div class="ico">🍽️</div><b>급여용품</b><small>식기 · 급식기 · 급수기</small></a>
+<a class="category" href="#products" data-jump="care"><div class="ico">🫧</div><b>위생·미용</b><small>샴푸 · 구강 · 배변</small></a>
+<a class="category" href="#products" data-jump="living"><div class="ico">🧸</div><b>생활·놀이</b><small>장난감 · 방석 · 이동장</small></a>
+<a class="category" href="#products" data-jump="cat"><div class="ico">🐈</div><b>고양이 용품</b><small>모래 · 스크래처 · 캣타워</small></a>
+<a class="category" href="#products" data-jump="dog"><div class="ico">🐕</div><b>강아지 용품</b><small>산책 · 하네스 · 배변</small></a>
+</div></section>
+<section class="wrap" id="products"><div class="section-head"><div><div class="kicker">PRODUCT FINDER</div><h2>상품 카테고리 검색</h2></div><div class="muted" id="count">전체 카테고리</div></div>
+<div class="filters"><input id="q" type="search" placeholder="찾는 상품 검색: 예) 연어 사료, 고양이 모래, 자동급식기"><select id="animal"><option value="all">강아지·고양이 전체</option><option value="dog">강아지</option><option value="cat">고양이</option><option value="both">공통</option></select></div>
+<div class="tabs"><button class="tab active" data-kind="all">전체</button><button class="tab" data-kind="food">사료</button><button class="tab" data-kind="treat">간식</button><button class="tab" data-kind="supplement">영양제</button><button class="tab" data-kind="feeding">급여용품</button><button class="tab" data-kind="care">위생·미용</button><button class="tab" data-kind="living">생활·놀이</button></div>
+<div class="product-grid" id="list">
+<article class="product" data-kind="food" data-animal="dog"><div class="top"><span class="emoji">🥣</span><span class="tag">강아지 사료</span></div><h3>강아지 건식 주식 사료</h3><p>퍼피·어덜트·시니어와 체형·활동량별 제품을 비교합니다.</p><div class="facts"><b>비교:</b> 원료, 등록성분량, 열량, kg당 가격</div></article>
+<article class="product" data-kind="food" data-animal="cat"><div class="top"><span class="emoji">🐈</span><span class="tag">고양이 사료</span></div><h3>고양이 건식 주식 사료</h3><p>키튼·어덜트·시니어와 실내 생활 특성별 제품군입니다.</p><div class="facts"><b>비교:</b> 주식 여부, 단백질, 열량, kg당 가격</div></article>
+<article class="product" data-kind="food" data-animal="both"><div class="top"><span class="emoji">🥫</span><span class="tag">습식 사료</span></div><h3>캔·파우치 습식 사료</h3><p>완전사료와 보조식·간식용 제품을 구분해 살펴봅니다.</p><div class="facts"><b>비교:</b> 용도, 수분, 열량, 100g당 가격</div></article>
+<article class="product" data-kind="food" data-animal="both"><div class="top"><span class="emoji">❄️</span><span class="tag">동결건조</span></div><h3>동결건조·에어드라이</h3><p>주식·토퍼·간식 구분과 급여 방식, 수분 보충을 확인합니다.</p><div class="facts"><b>비교:</b> 용도, 원료, 급여량, g당 가격</div></article>
+<article class="product" data-kind="food" data-animal="both"><div class="top"><span class="emoji">🩺</span><span class="tag">기능성 사료</span></div><h3>기능성·처방식 사료</h3><p>체중·소화기·요로·피부 등 목적별 제품군입니다.</p><div class="facts"><b>비교:</b> 대상, 목적, 급여 조건, 가격</div></article>
+<article class="product" data-kind="treat" data-animal="both"><div class="top"><span class="emoji">🍖</span><span class="tag">육류 간식</span></div><h3>육포·저키·미트 트릿</h3><p>닭·오리·소·양·생선 등 원료별 간식입니다.</p><div class="facts"><b>비교:</b> 원료, 첨가물, 열량, g당 가격</div></article>
+<article class="product" data-kind="treat" data-animal="both"><div class="top"><span class="emoji">🦴</span><span class="tag">덴탈 간식</span></div><h3>덴탈껌·씹는 간식</h3><p>크기·경도·대상 동물과 급여 주의사항을 확인합니다.</p><div class="facts"><b>비교:</b> 크기, 경도, 급여량, 개당 가격</div></article>
+<article class="product" data-kind="treat" data-animal="cat"><div class="top"><span class="emoji">🍮</span><span class="tag">고양이 간식</span></div><h3>츄르·파우치·페이스트</h3><p>스틱·파우치 간식의 원료와 열량을 비교합니다.</p><div class="facts"><b>비교:</b> 주식 대체 여부, 나트륨, 개당 가격</div></article>
+<article class="product" data-kind="treat" data-animal="both"><div class="top"><span class="emoji">🐟</span><span class="tag">동결건조 간식</span></div><h3>동결건조 트릿</h3><p>육류·생선·내장·채소 원료별 간식입니다.</p><div class="facts"><b>비교:</b> 원료, 제조방식, 열량, g당 가격</div></article>
+<article class="product" data-kind="supplement" data-animal="both"><div class="top"><span class="emoji">🧫</span><span class="tag">장 건강</span></div><h3>유산균·프로바이오틱스</h3><p>균주명, 보장 균수, 보관 조건과 대상 동물을 확인합니다.</p><div class="facts"><b>비교:</b> 균주, 보장량, 1일 급여 비용</div></article>
+<article class="product" data-kind="supplement" data-animal="both"><div class="top"><span class="emoji">🐠</span><span class="tag">피부·모질</span></div><h3>오메가3·지방산 보조제</h3><p>어유·조류유 등 원료와 EPA·DHA 함량을 비교합니다.</p><div class="facts"><b>비교:</b> EPA/DHA, 산패 관리, 1일 비용</div></article>
+<article class="product" data-kind="supplement" data-animal="both"><div class="top"><span class="emoji">🦿</span><span class="tag">관절·종합</span></div><h3>관절·비타민·미네랄</h3><p>성분별 함량과 주식 사료와의 영양소 중복을 살펴봅니다.</p><div class="facts"><b>비교:</b> 유효성분, 함량, 1일 비용</div></article>
+<article class="product" data-kind="feeding" data-animal="both"><div class="top"><span class="emoji">🍽️</span><span class="tag">식기</span></div><h3>식기·슬로우 피더</h3><p>스테인리스·세라믹·실리콘 식기와 급체 방지 식기입니다.</p><div class="facts"><b>비교:</b> 재질, 용량, 세척, 가격</div></article>
+<article class="product" data-kind="feeding" data-animal="both"><div class="top"><span class="emoji">⏱️</span><span class="tag">자동화</span></div><h3>자동급식기·급수기</h3><p>예약 급여, 정량 설정, 필터와 세척 편의성을 비교합니다.</p><div class="facts"><b>비교:</b> 용량, 급여 오차, 소모품 비용</div></article>
+<article class="product" data-kind="care" data-animal="both"><div class="top"><span class="emoji">🪥</span><span class="tag">구강 관리</span></div><h3>칫솔·치약·구강용품</h3><p>반려동물 전용 제품의 성분·사용법·크기를 확인합니다.</p><div class="facts"><b>비교:</b> 대상, 성분, 사용 편의, 가격</div></article>
+<article class="product" data-kind="care" data-animal="both"><div class="top"><span class="emoji">🧴</span><span class="tag">미용</span></div><h3>샴푸·브러시·미용용품</h3><p>피부와 피모 특성에 맞는 세정·미용 제품군입니다.</p><div class="facts"><b>비교:</b> 전용 여부, 성분, 용량, 사용법</div></article>
+<article class="product" data-kind="care" data-animal="cat"><div class="top"><span class="emoji">🐈</span><span class="tag">고양이 위생</span></div><h3>고양이 모래·화장실</h3><p>벤토나이트·두부·카사바 등 모래와 화장실 용품입니다.</p><div class="facts"><b>비교:</b> 먼지, 응고력, 탈취, kg당 가격</div></article>
+<article class="product" data-kind="care" data-animal="dog"><div class="top"><span class="emoji">🧻</span><span class="tag">강아지 위생</span></div><h3>배변패드·배변용품</h3><p>흡수력·크기·두께·탈취 기능별 제품군입니다.</p><div class="facts"><b>비교:</b> 매수, 크기, 흡수력, 장당 가격</div></article>
+<article class="product" data-kind="living" data-animal="both"><div class="top"><span class="emoji">🧸</span><span class="tag">놀이</span></div><h3>장난감·노즈워크·스크래처</h3><p>탐색 놀이, 퍼즐, 고양이 스크래처 등 활동 용품입니다.</p><div class="facts"><b>비교:</b> 재질, 크기, 내구성, 세척</div></article>
+<article class="product" data-kind="living" data-animal="both"><div class="top"><span class="emoji">🧺</span><span class="tag">생활</span></div><h3>방석·하우스·이동장</h3><p>휴식과 이동에 필요한 생활·안전 용품입니다.</p><div class="facts"><b>비교:</b> 사이즈, 소재, 세탁, 안전성</div></article>
+</div><p id="empty" class="muted hide">검색 결과가 없습니다.</p></section>
+<section class="wrap" id="brands"><div class="section-head"><div><div class="kicker">BRAND DIRECTORY</div><h2>브랜드 탐색</h2></div><div class="muted">공식 제품 정보 확인용 브랜드 디렉터리</div></div>
+<div class="brand-grid">
+<div class="brand"><b>로얄캐닌</b><small>강아지·고양이 사료</small></div><div class="brand"><b>힐스 사이언스 다이어트</b><small>강아지·고양이 사료</small></div><div class="brand"><b>퓨리나 프로플랜</b><small>강아지·고양이 사료</small></div><div class="brand"><b>오리젠</b><small>강아지·고양이 사료</small></div><div class="brand"><b>아카나</b><small>강아지·고양이 사료</small></div><div class="brand"><b>ANF</b><small>반려동물 사료</small></div><div class="brand"><b>하림펫푸드</b><small>강아지·고양이 사료·간식</small></div><div class="brand"><b>네츄럴코어</b><small>사료·간식</small></div><div class="brand"><b>인섹트도그</b><small>강아지 사료·간식</small></div><div class="brand"><b>시저</b><small>강아지 습식 사료·간식</small></div><div class="brand"><b>템테이션</b><small>고양이 간식</small></div><div class="brand"><b>그리니즈</b><small>강아지·고양이 덴탈 간식</small></div>
+</div><p class="muted">브랜드명은 탐색 예시입니다. 제품별 국내 판매 여부, 공식 유통 여부, 최신 라인업은 개별 확인이 필요합니다.</p></section>
+<section class="wrap" id="guide"><div class="section-head"><div><div class="kicker">SMART SHOPPING</div><h2>현명한 구매 체크리스트</h2></div></div><div class="info-grid">
+<div class="info"><h3>① 대상 동물 확인</h3><p>강아지·고양이, 연령, 체중, 건강 상태와 제품의 급여 대상을 확인하세요.</p></div>
+<div class="info"><h3>② 성분·용도 확인</h3><p>원료, 등록성분량, 열량, 주식·간식·보조용 구분과 알레르기 가능 원료를 확인하세요.</p></div>
+<div class="info"><h3>③ 단위 가격 비교</h3><p>사료는 kg당, 습식은 100g당, 간식은 개당·g당, 보조제는 1일 급여 비용으로 비교하세요.</p></div>
+<div class="info"><h3>④ 판매처·배송 확인</h3><p>정품 판매처, 배송비, 묶음 구성, 유통기한, 반품·교환 조건을 함께 살펴보세요.</p></div>
+</div><div class="notice" style="margin-top:16px">안내: 이 사이트는 쇼핑 정보와 비교 기준을 제공하며 실시간 가격·재고를 자동 조회하지 않습니다. 처방식과 영양 보조제는 수의사와 상담하고, 구매 전 제조사·판매처의 최신 제품 표시사항을 확인하세요.</div></section>
+<section class="wrap"><div class="section-head"><div><div class="kicker">DATA POLICY</div><h2>상품 정보 업데이트 원칙</h2></div></div><div class="notice">개별 상품을 등록할 때는 상품명, 제조사, 대상 동물, 용량, 성분·등록성분량, 가격, 판매처 URL, 정보 확인일을 함께 기록합니다. 가격과 재고는 변동되므로 확인일을 표시하고 공식 판매처 정보를 우선합니다.</div></section>
+</main><footer>🐾 펫초이스 · PET CHOICE<br>강아지와 고양이를 위한 종합 쇼핑 정보 가이드</footer>
+<script>
+const q=document.querySelector('#q'),animal=document.querySelector('#animal'),items=[...document.querySelectorAll('.product')],tabs=[...document.querySelectorAll('.tab')];let kind='all';
+function filter(){let s=q.value.trim().toLowerCase(),a=animal.value,n=0;items.forEach(x=>{let ok=(kind==='all'||x.dataset.kind===kind)&&(a==='all'||x.dataset.animal===a||x.dataset.animal==='both')&&x.innerText.toLowerCase().includes(s);x.classList.toggle('hide',!ok);if(ok)n++});document.querySelector('#count').textContent=n+'개 카테고리 표시';document.querySelector('#empty').classList.toggle('hide',n>0)}
+tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(b=>b.classList.remove('active'));t.classList.add('active');kind=t.dataset.kind;filter()}));q.addEventListener('input',filter);animal.addEventListener('change',filter);
+document.querySelectorAll('[data-jump]').forEach(a=>a.addEventListener('click',()=>{let k=a.dataset.jump;if(['dog','cat'].includes(k)){animal.value=k;kind='all'}else{animal.value='all';kind=k}tabs.forEach(t=>t.classList.toggle('active',t.dataset.kind===kind));filter()}));filter();
+</script></body></html>
